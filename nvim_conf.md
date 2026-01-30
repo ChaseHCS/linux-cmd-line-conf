@@ -2,7 +2,7 @@
 
 Nvim conf file is located in "~/.config/nvim/init.lua"
 
-Using LazyVim Distro
+### Distro = LazyVim
 
 ## ~/.config/nvim/init.lua
 
