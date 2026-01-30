@@ -2,6 +2,8 @@
 
 Alacritty conf file is located in "~/.config/alacritty/alacritty.toml"
 
+### Distro = None
+
 ## Dependencies
 
 ```zsh
