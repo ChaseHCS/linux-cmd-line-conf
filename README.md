@@ -1,11 +1,11 @@
 # Full linux dev stack
 
-Desktop: Gnome
+*Desktop: Gnome
 
-Terminal: Alacritty
+*Terminal: Alacritty
 
-Multiplexer: Tmux
+*Multiplexer: Tmux
 
-Shell: Zsh WITH Oh My Zsh
+*Shell: Zsh WITH Oh My Zsh
 
-Editor: Neovim WITH LazyVim
+*Editor: Neovim WITH LazyVim
