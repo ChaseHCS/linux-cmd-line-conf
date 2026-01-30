@@ -81,6 +81,10 @@ bindings = [
   { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
   { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
 ]
+
+[shell]
+program = "/usr/bin/zsh"
+
 ```
 
 ## Complexities
