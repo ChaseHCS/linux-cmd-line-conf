@@ -97,6 +97,8 @@ bindings = [
 
 Using `alacritty` will mean that the standard shell upgrade will change slightly since the victim will have `no fucking idea` what `alacritty` is.
 
+
+### Shell upgrade cmds
 ```bash
 # Typical Shell Stabilization Workflow
 python3 -c 'import pty; pty.spawn("/bin/bash")'
@@ -108,3 +110,7 @@ stty raw -echo; fg
 # Back in the victim shell:
 export TERM=xterm-256color   <-- CRITICAL STEP
 ```
+
+## Colors
+
+Also, its important to remember that when `OMZ` uses a color like `magenta` or `green` it goes downstream to the terminal emulator to decide what the color is going to be.
